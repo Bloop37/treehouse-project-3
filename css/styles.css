@@ -12,6 +12,9 @@ header{
     color: white;
     text-align: center;
 }
+textarea:focus{
+    background-color: grey;
+}
 textarea{
     width: 100%;
 }
@@ -29,6 +32,9 @@ h2{
 footer{
     text-align: center;
     font-style: italic;
+}
+fieldset{
+    border: none;
 }
 @media(min-width: 768px){
 
